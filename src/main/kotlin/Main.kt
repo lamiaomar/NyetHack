@@ -33,6 +33,26 @@ fun main(args: Array<String>) {
 }
 
 
+ /*
+    Function without return
+    
+    Unit Functions
+    Not all functions return a value.
+    Some use side effects instead to do their work,
+    like modifying the state of a variable or calling other functions that yield system output.
+    Think about your player status and aura display code, or the castFireball function, for example.
+    They define no return type and have no return statement. They use println to do their work.
+
+     private fun castFireball(numFireballs: Int = 2)
+     { println("A fireball springs into existence. (x$numFireballs)") }
+     
+     In Kotlin, such functions are known as Unit functions,
+     meaning their return type is Unit.What kind of type is Unit?
+     Kotlin uses the Unit return type to signify exactly this: a function that returns no value.
+     If the return keyword is not used, it is implicit that the return type for that function is Unit
+     */
+
+
 
 
 
